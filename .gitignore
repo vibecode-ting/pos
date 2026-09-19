@@ -1,11 +1,21 @@
+# dependencies
 node_modules/
+
+# build output
 dist/
-*.tsbuildinfo
+
+# environment variables (never commit real secrets)
 .env
-.env.*
-!.env.example
-android/.gradle/
-android/local.properties
-*.keystore
-*.jks
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS junk
 .DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+.idea/

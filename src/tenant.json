@@ -1,0 +1,155 @@
+{
+  "app": {
+    "name": "CycleFlow",
+    "tagline": "Retail OS",
+    "logoUrl": "",
+    "themeColor": "#0f766e",
+    "themeColorDark": "#0c5f59",
+    "currency": "MMK",
+    "currencyLocale": "en-US",
+    "taxRate": 0.05,
+    "languages": ["en", "my"],
+    "defaultLanguage": "en"
+  },
+  "store": {
+    "name": "Main Store",
+    "deviceId": "REGISTER-01",
+    "address": "No. 1, Merchant Road, Yangon",
+    "phone": "+95 9 123 456 789",
+    "receiptHeader": "Thank you for shopping with us!",
+    "receiptFooter": "No returns after 7 days. Keep receipt."
+  },
+  "products": [
+    {
+      "id": "p1",
+      "name": "Trailblazer 27.5 Mountain Bike",
+      "nameLocal": "တောင်တက်စက်ဘီး Trailblazer",
+      "sku": "BIK-MTB-275",
+      "category": "Bicycles",
+      "price": 1290000,
+      "stock": 4,
+      "minStock": 2,
+      "color": "#dff3ee",
+      "serial": "TB275-2401",
+      "imageUrl": ""
+    },
+    {
+      "id": "p2",
+      "name": "City Glide Hybrid Bike",
+      "nameLocal": "မြို့တွင်းစီး စက်ဘီး",
+      "sku": "BIK-HYB-001",
+      "category": "Bicycles",
+      "price": 890000,
+      "stock": 7,
+      "minStock": 2,
+      "color": "#e8edff",
+      "serial": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "p3",
+      "name": "Urban Commuter Helmet",
+      "nameLocal": "လုံခြုံရေးဦးထုပ်",
+      "sku": "HEL-URB-002",
+      "category": "Helmets",
+      "price": 65000,
+      "stock": 18,
+      "minStock": 8,
+      "color": "#fff0da",
+      "serial": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "p4",
+      "name": "USB Rechargeable Light Set",
+      "nameLocal": "USB မီးအလင်းအစု",
+      "sku": "LGT-USB-003",
+      "category": "Lights",
+      "price": 38000,
+      "stock": 24,
+      "minStock": 10,
+      "color": "#f1e8ff",
+      "serial": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "p5",
+      "name": "Heavy Duty U-Lock",
+      "nameLocal": "သံမဏိသော့",
+      "sku": "LCK-U-004",
+      "category": "Locks",
+      "price": 42000,
+      "stock": 3,
+      "minStock": 5,
+      "color": "#ffe4e4",
+      "serial": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "p6",
+      "name": "700x28C Road Tire",
+      "nameLocal": "700x28C လမ်းစက်ဘီးတာယာ",
+      "sku": "TIR-700-005",
+      "category": "Tires",
+      "price": 58000,
+      "stock": 12,
+      "minStock": 5,
+      "color": "#e8f4ff",
+      "serial": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "p7",
+      "name": "Floor Pump Pro",
+      "nameLocal": "လေထိုးစက်",
+      "sku": "PMP-FLR-006",
+      "category": "Tools",
+      "price": 76000,
+      "stock": 9,
+      "minStock": 3,
+      "color": "#e9f6e5",
+      "serial": "",
+      "imageUrl": ""
+    },
+    {
+      "id": "p8",
+      "name": "Kids Safety Bell",
+      "nameLocal": "ကလေးစက်ဘီး ခေါင်းလောင်း",
+      "sku": "ACC-BEL-007",
+      "category": "Accessories",
+      "price": 18000,
+      "stock": 2,
+      "minStock": 5,
+      "color": "#fff0f5",
+      "serial": "",
+      "imageUrl": ""
+    }
+  ],
+  "categories": [
+    "Bicycles",
+    "Helmets",
+    "Lights",
+    "Locks",
+    "Tires",
+    "Tools",
+    "Accessories"
+  ],
+  "users": [
+    {
+      "id": "u1",
+      "username": "admin",
+      "displayName": "Ko Aung",
+      "initials": "KA",
+      "role": "owner",
+      "password": "admin123"
+    },
+    {
+      "id": "u2",
+      "username": "cashier",
+      "displayName": "Ma Aye",
+      "initials": "MA",
+      "role": "cashier",
+      "password": "cashier123"
+    }
+  ]
+}
